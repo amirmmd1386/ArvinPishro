@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="asset/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- <link rel="stylesheet" href="asset/css/fontEn.css"> -->
+    <title>سایت رسمی پیشرو آروین پلیمر</title>
+</head>
+
+<body class="baseBg" onload="startTime()">
+    <!-- choose lang -->
+    <div
+        class="col-11 m-auto mt-2 d-flex justify-content-between bg align-items-center p-2 rounded-3 shadow-lg glass mb-2 mb-lg-3">
+        <div class="btn-group btn-group-sm " role="group" aria-label="Basic example">
+            <a href="" class="btn " data-mdb-ripple-init>فارسی</a>
+            <a href="" class="btn " data-mdb-ripple-init>عربی<a>
+                    <a href="" class="btn " data-mdb-ripple-init>انگلیسی</a>
+        </div>
+        <div id="clock" class="num"></div>
+    </div>
+    <!-- choose lang -->
+    <!-- Header -->
+    <header class="d-flex justify-content-center mb-5">
+        <nav class="navbar navbar-expand-md navbar-light baseBg col-11 mt-3 p-0 rounded-10">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="asset/image/logo/companyLogo.png" class=" h75"
+                        alt="آروین پلیمر"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navOFF"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="navOFF"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header bg-light">
+                        <h5 id="offcanvasRightLabel">آروین پیشرو</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body  baseBg">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                            <li class="nav-item">
+                                <a class="nav-link h5 active " aria-current="page" href="#">خانه</a>
+                            </li>
+
+
+                            <li class="nav-item ">
+                                <a class="nav-link h5" href="#">محصولات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link h5" href="#">درباره ما</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link h5" href="#">تماس با ما</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text h5">
+                            آروین پلیمر
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Header -->
+
+    <!-- article -->
+    <article>
+
+        <!-- Banner -->
+        <section
+            class=" col-11 d-flex justify-content-lg-around justify-content-center gap-3 gap-lg-0 align-items-center  flex-wrap m-auto my-5 flex-column-reverse flex-lg-row">
+            <div
+                class="col-11 col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start">
+                <h1 class="display-3 text-center text-lg-start ">به سایت پیشرو آروین پلیمر خوش آمدید</h1>
+                <p class="text-muted h3 mt-3 text-center text-lg-start">ابتکار در پلیمرها، آینده‌ی فناوری را تغییر
+                    می‌دهد!</p>
+                <a href="" class="btn btn-lg btn-onBg  py-3 px-5 onBg mt-2 shadow-lg">محصولات بیشتر</a>
+            </div>
+            <div class="col-11 col-lg-5">
+                <img src="asset/image/thumnail/headerImage.jfif" class="img-fluid rounded-10" alt="">
+            </div>
+        </section>
+        <!-- Banner -->
+
+        <!-- best gallery -->
+        <div class=" container d-flex flex-wrap ">
+            <div
+                class="container-fluid mx-2 mx-lg-0 my-2 bg-light pt-1 rounded-3 d-flex justify-content-between align-items-center">
+                <p class="h3">گزیده تصاویر</p>
+                <i class="bi bi-camera bi-3x m-0 p-0"></i>
+            </div>
+            <div class="accordion container-fluid">
+                <div class=" accordion-item ">
+                    <img src="asset/image/bgImage/1.jpg" alt="image1">
+                </div>
+                <div class="accordion-item">
+                    <img src="asset/image/bgImage/2.jpg" alt="image2">
+                </div>
+                <div class="accordion-item">
+                    <img src="asset/image/bgImage/3.jpg" alt="image3">
+                </div>
+                <div class="accordion-item">
+                    <img src="asset/image/bgImage/4.jpg" alt="image3">
+                </div>
+            </div>
+        </div>
+        <!-- best gallery -->
+
+        <!-- goods -->
+        <section class="mt-5">
+            <div class="col-11 m-auto">
+
+                <div class="row mb-3 d-flex justify-content-center col-12 p-0 m-0">
+                    <div class="col-12 aos aos-init aos-animate d-flex justify-content-between align-items-center m-0 p-0"
+                        data-aos="fade-up">
+                        <div class="section-header-one d-flex align-items-center p-0 m-0">
+                            <img src="asset/image/icon/titleIcon.png" class="icon" alt="">
+                            <h2 class="section-title">محصولات</h2>
+                        </div>
+                        <a href="" class="btn btn-lg btn-onBg m-0 section-link">محصولات بیشتر<svg
+                                xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor"
+                                class="bi bi-arrow-left-square mx-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 d-flex aos aos-init aos-animate " data-aos="fade-up">
+                        <div class="articles-grid w-100 border-onBg shadow-lg">
+                            <div class="articles-info">
+                                <div class="articles-left">
+                                    <a href="blog-details.html">
+                                        <div class="articles-img">
+                                            <img src="asset/image/thumnail/asidePicture.png" class="img-fluid images"
+                                                alt="John Doe">
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="articles-right">
+                                    <div class="articles-content">
+                                        <h4 class="h4">
+                                            مواد های پلی اتیلن
+                                        </h4>
+                                        <p class="text-muted">زندگی خود را بروز کنید با مواد پلی اتیلن ما</p>
+                                        <a href="" class="btn btn-onBg ">اطلاعات بیشتر</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-flex aos aos-init aos-animate " data-aos="fade-up">
+                        <div class="articles-grid w-100 border-onBg shadow-lg">
+                            <div class="articles-info">
+                                <div class="articles-left">
+                                    <a href="blog-details.html">
+                                        <div class="articles-img">
+                                            <img src="asset/image/thumnail/news.jpg" class="img-fluid" alt="John Doe">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="articles-right">
+                                    <div class="articles-content">
+                                        <h4 class="h4">
+                                            مواد های پلی اتیلن
+                                        </h4>
+                                        <p class="text-muted">زندگی خود را بروز کنید با مواد پلی اتیلن ما</p>
+                                        <a href="" class="btn btn-onBg ">اطلاعات بیشتر</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-flex aos aos-init aos-animate " data-aos="fade-up">
+                        <div class="articles-grid w-100 border-onBg shadow-lg">
+                            <div class="articles-info">
+                                <div class="articles-left">
+                                    <a href="blog-details.html">
+                                        <div class="articles-img">
+                                            <img src="asset/image/thumnail/headerImage.jfif" class="img-fluid"
+                                                alt="John Doe">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="articles-right">
+                                    <div class="articles-content">
+                                        <h4 class="h4">
+                                            مواد های پلی اتیلن
+                                        </h4>
+                                        <p class="text-muted">زندگی خود را بروز کنید با مواد پلی اتیلن ما</p>
+                                        <a href="" class="btn btn-onBg ">اطلاعات بیشتر</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-flex aos aos-init aos-animate " data-aos="fade-up">
+                        <div class="articles-grid w-100 border-onBg shadow-lg">
+                            <div class="articles-info">
+                                <div class="articles-left">
+                                    <a href="blog-details.html">
+                                        <div class="articles-img">
+                                            <img src="asset/image/thumnail/headerImage.jfif" class="img-fluid"
+                                                alt="John Doe">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="articles-right">
+                                    <div class="articles-content">
+                                        <h4 class="h4">
+                                            مواد های پلی اتیلن
+                                        </h4>
+                                        <p class="text-muted">زندگی خود را بروز کنید با مواد پلی اتیلن ما</p>
+                                        <a href="" class="btn btn-onBg ">اطلاعات بیشتر</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- goods -->
+
+        <!-- best new -->
+        <div class="container my-5 p-2">
+            <div class="card mb-5 shadow-lg rounded-10 overflow-hidden p-3">
+                <div class="card-bg rounded-10"></div>
+                <div class="card-av m-auto m-lg-0 d-flex justify-content-between flex-column flex-lg-row">
+                    <img src="asset/image/thumnail/imageHeader.png" alt="Main Image"
+                        class="me-5 wh50 object-fit-cover rounded-circle mt-50  border-10">
+                        <h2 class="card-title fw-bold my-1 mx-5">عنوان خبر جدید</h2>
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-gray-500 mb-4">توضیحات خبر جدید</p>
+                    <p class="card-text text-gray-500 mb-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                        صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-gray-500 m-0 p-0">تاریخ انتشار: ۱۴۰۰/۰۷/۲۵</span>
+                        <a href="#" class=" p-1 p-lg-2 btn btn-lg btn-onBg  ">مشاهده خبر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- best new -->
+        <!-- about-us -->
+        <section
+            class="col-11 col-lg-10 m-auto my-5 py-5 px-2 d-flex align-items-center justify-content-center flex-lg-row flex-column-reverse">
+            <div class="col-12 bg-gradient p-3 rounded-10">
+                <div class="col-12 col-lg-10">
+                    <h2 class="white text-center">درباره پیشرو آروین پلیمر</h2>
+                    <p class="textHeadDecore text-center my-3 text-white"><i class="bi bi-fan"></i></p>
+                    <p class="text-white fw-light thin lh-lg">حضور در عرصه صنعت پلیمر کشور و مشاهده نیازمندی­ها و
+                        دغدغه­های مدیران صنایع مختلف در کشور ایده تولید
+                        آمیزه­های ترموپلاستیک الاستومرهای مهندسی را در سال 1393 ایجاد کرد. مطالعات اولیه، امکان­سنجی
+                        تولید و
+                        ارزیابی بازار در همان سال فکر ایجاد مجموعه­ای تخصصی برای تولید این خانواده از محصولات را تقویت
+                        کرد.
+                        در سال 1394 تهیه فرمول­های اولیه و کارهای عملی مربوط به فرمولاسیون­ها شروع شد. نهایتا در سال
+                        1395
+                        شرکت پیشرو آروین پلیمر با تمرکز بر روی تولید آمیزه­های ترموپلاستیک الاستومرهای مهندسی تاسیس
+                        گردید.
+                        هدف اصلی این مجموعه تولید تخصصی آمیزه­های ترموپلاستیک الاستومرهای مهندسی منطبق بر نیازهای صنایع
+                        کشور
+                        تعریف گردیده­است. در همان ابتدا آزمایشگاه این مجموعه به صورت تقریبا کامل برای آزمون­های مورد
+                        نیاز با
+                        دستگاه­های روز تجهیز شد. کارهای تحقیقاتی با هدف بومی­سازی دانش­فنی مورد نیاز برای فرمولاسیون و
+                        تولید
+                        این نوع از آمیزه­های پیشرفته پلیمری ادامه یافت. تکمیل بومی­سازی دانش­فنی فرمولاسیون و تولید
+                        آمیزه و
+                        وجود تجهیزات آزمایشگاهی مناسب، امکان تولید طیف بسیار متنوعی از محصولات با خواص منحصر به فرد برای
+                        کاربردهای گوناگون را فراهم گردانید. به عنوان مثال توان تولید آمیزه­های ترموپلاستیک الاستومر از
+                        سختی
+                        صفر در مقیاس شور A تا سختی 55 در مقیاس شورD با خواص فیزیکی، مکانیکی و شیمیایی متنوع مورد درخواست
+                        صنایع در این مجموعه وجود دارد.</p>
+                </div>
+
+            </div>
+            <img src="asset/image/thumnail/asidePicture.png" class="h20 -l30" alt="">
+        </section>
+        <!-- about-us -->
+
+
+        <!-- Why Us Section -->
+        <section class="why-us ">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h2 class="display-6 mb-4">چرا شرکت پیشرو آروین پلیمر</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card shadow-lg h-100 whyCard p-0 rounded-6">
+                            <div class="card-body p-1 text-center ">
+                                <i class="bi bi-calendar-check bi-3x"></i>
+                                <h5 class="card-title">دانش فنی فرمولاسیون و سفارشی سازی با توجه به نیاز درخواست کننده
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card shadow-lg h-100 whyCardActive p-0 rounded-6">
+                            <div class="card-body p-1 text-center ">
+                                <i class="bi bi-rocket bi-3x"></i>
+                                <!-- <i class="fas fa-rocket fa-3x mb-3"></i> -->
+                                <h5 class="card-title mt-3">پاسخ گویی سریع و کمک به انتخاب گرید مناسب محصول
+
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card shadow-lg h-100 whyCard p-0 rounded-6">
+                            <div class="card-body p-1 text-center ">
+                                <i class="bi bi-search bi-3x"></i>
+                                <h5 class="card-title">توان تولید بالا و دقیق
+
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why Us Section -->
+
+        <!-- news -->
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <div class="section-header-one d-flex align-items-center p-0 m-0 col-11 m-auto mt-5 mb-2">
+                <img src="asset/image/icon/titleIcon.png" class="icon" alt="">
+                <h2 class="section-title">اخبار ها</h2>
+            </div>
+            <div class="d-flex justify-content-around align-items-center gap-3 flex-wrap">
+                <div class="card bg-transparent shadow-lg border-onBg w435  my-0 glass">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3 overflow-hidden">
+                            <img src="asset/image/bgImage/2.jpg" alt=""
+                                class="w-100 h14s object-fit-cover rounded zoom img-hover">
+                        </div>
+                        <a href="https://roocket.ir/skills/frontend" class="h4 text-decoration-none text-onBg">طراحی
+                            سایت</a>
+                        <p class="text-muted">آموزش طراحی سایت صفر تا صد پروژه محور به صورت کامل را از طریق مدرسین
+                            مجرب
+                            مجموعه آموزشی راکت یاد بگیرید.</p>
+                    </div>
+                    <hr class="">
+                    <div class="d-flex justify-content-end md:px-8 px-4 py-4">
+                        <a href="https://roocket.ir/skills/frontend" class="btn btn-onBg bg-onBg">
+                            مشاهده کامل خبر
+                        </a>
+                    </div>
+                </div>
+                <div class="card bg-transparent shadow-lg border-onBg w435  my-0 glass">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3 overflow-hidden">
+                            <img src="asset/image/bgImage/1.jpg" alt=""
+                                class="w-100 h14s object-fit-cover rounded zoom img-hover">
+                        </div>
+                        <a href="https://roocket.ir/skills/frontend" class="h4 text-decoration-none text-onBg">طراحی
+                            سایت</a>
+                        <p class="text-muted">آموزش طراحی سایت صفر تا صد پروژه محور به صورت کامل را از طریق مدرسین
+                            مجرب
+                            مجموعه آموزشی راکت یاد بگیرید.</p>
+                    </div>
+                    <hr class="">
+                    <div class="d-flex justify-content-end md:px-8 px-4 py-4">
+                        <a href="https://roocket.ir/skills/frontend" class="btn btn-onBg bg-onBg">
+                            مشاهده کامل خبر
+                        </a>
+                    </div>
+                </div>
+                <div class="card bg-transparent shadow-lg border-onBg w435  my-0 glass">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3 overflow-hidden">
+                            <img src="asset/image/bgImage/4.jpg" alt=""
+                                class="w-100 h14s object-fit-cover rounded zoom img-hover">
+                        </div>
+                        <a href="https://roocket.ir/skills/frontend" class="h4 text-decoration-none text-onBg">طراحی
+                            سایت</a>
+                        <p class="text-muted">آموزش طراحی سایت صفر تا صد پروژه محور به صورت کامل را از طریق مدرسین
+                            مجرب
+                            مجموعه آموزشی راکت یاد بگیرید.</p>
+                    </div>
+                    <hr class="">
+                    <div class="d-flex justify-content-end md:px-8 px-4 py-4">
+                        <a href="https://roocket.ir/skills/frontend" class="btn btn-onBg bg-onBg">
+                            مشاهده کامل خبر
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- news -->
+
+        <!--static picture -->
+        <div class="col-12 m-0 mt-5 bgImage" bgImage="asset/image/bgImage/detail.png">
+        </div>
+        <!--static picture -->
+
+    </article>
+    <!-- article -->
+
+
+    <!-- Footer -->
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 p-1 text-center onBg pt-2" href="#!"
+                    role="button"><i class="bi bi-facebook p-0 m-0"></i></a>
+
+                <!-- Twitter -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 p-1 text-center onBg pt-2" href="#!"
+                    role="button"><i class="bi bi-twitter p-0 m-0"></i></a>
+
+                <!-- Google -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 p-1 text-center onBg pt-2" href="#!"
+                    role="button"><i class="bi bi-google p-0 m-0"></i></a>
+
+                <!-- Instagram -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 p-1 text-center onBg pt-2" href="#!"
+                    role="button"><i class="bi bi-instagram p-0 m-0"></i></a>
+
+                <!-- Linkedin -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 p-1 text-center onBg pt-2" href="#!"
+                    role="button"><i class="bi bi-linkedin p-0 m-0"></i></a>
+
+                <!-- Github -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1 p-1 text-center onBg pt-2" href="#!"
+                    role="button"><i class="bi bi-github p-0 m-0"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    مجموعه پیشرو آروین پلیمر از اولین تولید کننده های ترموپلاستیک الاستومرها بر پایه SEBS است که موفق به
+                    کسب عنوان دانش بنیان از معاونت علمی و فناوری ریاست جمهوری شده است. تولید و ارائه محصولات سفارشی
+                    ترموپلاستیک الاستومر به منظور سهولت در امر تولید از ویژگی های بارز این مجموعه می باشد.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-onBg">تماس با ما</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-body num" href="#!">
+                                    026-37361021</a>
+                            </li>
+                            <li>
+                                <a class="text-body num" href="#!">026-37361022</a>
+                            </li>
+                            <li>
+                                <a class="text-body num" href="#!">09125665181</a>
+                            </li>
+                            <li>
+                                <a class="text-body num" href="#!">09123633723</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-onBg">لینک های مهم</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-body" href="#!">خانه</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#!">نظردادن</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#!">وبلاگ</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#!">فروشگاه</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase text-onBg">بخش های سایت</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-body" href="#!">اخبار</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#!">نظرات</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#!">محصولات پربازدید</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#!">چرا ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                        <h5 class="text-uppercase text-onBg">آدرس</h5>
+
+                        طهران خیبابان پنجم نرسیده به برج میلاد
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            تمامی حق کپی رایت این سایت مطلق به گروه
+            <a class="text-reset fw-bold" href="">مهندسی نیکان</a>
+            است
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="asset/js/script.js"></script>
+    <script src="asset/js/clock.js"></script>
+</body>
+
+</html>
