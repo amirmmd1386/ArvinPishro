@@ -19,5 +19,4 @@ function toggleAccordion() {
     setTimeout(toggleAccordion, 15000);
 }
 
-// اجرای اولیه
 toggleAccordion();

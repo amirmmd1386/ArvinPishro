@@ -13538,7 +13538,6 @@ html.menu-opened body {
 
 
 
-
 .articles-grid {
 
   transition: all ease 0.5s;
@@ -13555,7 +13554,7 @@ html.menu-opened body {
 @media (max-width: 1199.98px) {
   .articles-info .articles-left .articles-img {
     width: 100%;
-    height: auto;
+    height: 250px;
   }
 }
 
@@ -14535,10 +14534,12 @@ html.menu-opened body {
   background-color: #00008b;
   color: white;
 }
-.tag{
-  
+
+.tag {
+
   text-decoration: none;
 }
+
 .comment-by {
   display: block;
   font-size: 14px;

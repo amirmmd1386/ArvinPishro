@@ -139,14 +139,28 @@ body {
     font-size: 5rem;
 }
 
+
+
+.TdHover {
+    border-radius: 10px;
+   /* https://smoothshadows.com/#djEsMSw0LDAuNTksMCwzMSwtMjQsI2VmYjExMywjZjNmNGY2LCNmZmZmZmYsMg%3D%3D */
+box-shadow: -2px 2px 0px rgba(239, 177, 19, 0.15),
+-6px 8px 0px rgba(239, 177, 19, 0.29),
+-14px 17px 0px rgba(239, 177, 19, 0.44),
+-24px 31px 0px rgba(239, 177, 19, 0.59) !important;
+
+}
+
 .text-onBg {
     color: var(--onBg) !important;
 }
 
-.bg-gradient {
-    background: rgb(89, 45, 251) !important;
-    background: linear-gradient(var(--bg-gradeint)) !important;
 
+
+.bg-gradient {
+    background-image: url("../image/bgImage/aboutBg.png") !important;
+    /* background-size: cover; */
+    background-position: center;
 }
 
 .white {
@@ -190,7 +204,7 @@ body {
 
 .w435 {
     width: 402px;
-    max-width: 100%;
+    max-width: 95%;
 }
 
 .mb-50 {
@@ -376,10 +390,12 @@ footer li a:hover {
         width: 100vw;
         filter: grayscale(0%);
     }
+
     80% {
         width: 100vw;
         filter: grayscale(30%);
     }
+
     100% {
         width: 5%;
         filter: grayscale(80%);
@@ -411,6 +427,15 @@ footer li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+    .TdHover {
+
+        box-shadow: -1px 1px 0px rgba(239, 177, 19, 0.10),
+            -4px 4px 0px rgba(239, 177, 19, 0.21),
+            -10px 10px 0px rgba(239, 177, 19, 0.31) !important;
+
+
+    }
+
     .accordion-item {
         height: 10rem;
     }
