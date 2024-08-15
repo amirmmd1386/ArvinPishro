@@ -143,11 +143,11 @@ body {
 
 .TdHover {
     border-radius: 10px;
-   /* https://smoothshadows.com/#djEsMSw0LDAuNTksMCwzMSwtMjQsI2VmYjExMywjZjNmNGY2LCNmZmZmZmYsMg%3D%3D */
-box-shadow: -2px 2px 0px rgba(239, 177, 19, 0.15),
--6px 8px 0px rgba(239, 177, 19, 0.29),
--14px 17px 0px rgba(239, 177, 19, 0.44),
--24px 31px 0px rgba(239, 177, 19, 0.59) !important;
+    /* https://smoothshadows.com/#djEsMSw0LDAuNTksMCwzMSwtMjQsI2VmYjExMywjZjNmNGY2LCNmZmZmZmYsMg%3D%3D */
+    box-shadow: -2px 2px 0px rgba(239, 177, 19, 0.15),
+        -6px 8px 0px rgba(239, 177, 19, 0.29),
+        -14px 17px 0px rgba(239, 177, 19, 0.44),
+        -24px 31px 0px rgba(239, 177, 19, 0.59) !important;
 
 }
 
@@ -204,7 +204,7 @@ box-shadow: -2px 2px 0px rgba(239, 177, 19, 0.15),
 
 .w435 {
     width: 402px;
-    max-width: 95%;
+
 }
 
 .mb-50 {
@@ -375,9 +375,21 @@ footer li a:hover {
 
 }
 
+@media only screen and (min-width: 1400px) {
+    section>div>.display-3{
+font-size: 2.5rem;
+    }
+    section>div>.h3{
+        font-size: 1rem;
+    }
+    .bgImage{
+        height: 700px;
+    }
+}
 
-
-
+.banner-img-1{
+    height: 400px;
+    }
 
 
 @keyframes slide {
@@ -427,6 +439,9 @@ footer li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+    .banner-img-1{
+        height: 250px;
+        }
     .TdHover {
 
         box-shadow: -1px 1px 0px rgba(239, 177, 19, 0.10),
@@ -449,6 +464,10 @@ footer li a:hover {
         height: 9rem;
     }
 
+    .w435 {
+        width: 90%;
+    }
+
     .mt-50 {
         margin-top: -80px;
     }
@@ -460,6 +479,7 @@ footer li a:hover {
     .none {
         display: block;
     }
+    
 }
 
 .h50 {
