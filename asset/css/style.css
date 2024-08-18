@@ -185,7 +185,18 @@ body {
 
 .whyCard:hover,
 .whyCardActive {
-    background-color: var(--onBg);
+    /* background-color: var(--onBg);
+     */
+     background: 
+      linear-gradient(145deg,#0500a5 10%,#02003f 10.5% 19%,#0000 19.5% 80.5%,#02003f 81% 89.5%,#140cff 90%), 
+      linear-gradient(145deg,#0500a5 10%,#02003f 10.5% 19%,#0000 19.5% 80.5%,#02003f 81% 89.5%,#140cff 90%) calc(66px) 132px,
+      linear-gradient(35deg,#0500a5 10%,#02003f 10.5% 19%,#0000 19.5% 80.5%,#02003f 81% 89.5%,#140cff 90%), 
+      linear-gradient( 35deg,#0500a5 10%,#02003f 10.5% 19%,#0000 19.5% 80.5%,#02003f 81% 89.5%,#140cff 90%) calc(66px) 132px,
+      conic-gradient(from -90deg at 37.5% 50%,#0000 75%,#0500a5 0) calc(66px/4) 0,
+      conic-gradient(from -90deg at 37.5% 50%,#0000 75%,#140cff 0) calc(66px) 0,
+      linear-gradient(90deg,#140cff 38%,#0500a5 0 50%,#140cff 0 62%,#0500a5 0);
+background-size: 132px calc(2*132px/3);
+
     color: var(--white);
 }
 
@@ -386,7 +397,11 @@ font-size: 2.5rem;
         height: 700px;
     }
 }
-
+.mcard-50{
+    margin: auto;
+    margin-top: 50px ;
+    
+}
 .banner-img-1{
     height: 400px;
     }
@@ -449,6 +464,13 @@ font-size: 2.5rem;
             -10px 10px 0px rgba(239, 177, 19, 0.31) !important;
 
 
+    }
+    .mcard-50{
+        width: 75%;
+        height: 100%;
+        margin: 0;
+        margin: auto;
+        margin-top: 50px ;
     }
 .w435 {
         width: 90%;
