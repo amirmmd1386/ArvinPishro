@@ -181,13 +181,18 @@ body {
 
 .whyCard {
     transform: scale(85%);
+    transition: all ease 1s;
 }
 
 .whyCard:hover,
 .whyCardActive {
+    border: 3px solid var(--yellowC) !important;
  
-    background-color: var(--onBg);
-
+    background-color: #050988;
+background-image: url("../image/bgImage/whyUs.png");
+background-blend-mode: multiply;
+background-size: cover;
+background-position: center;
     color: var(--white);
 }
 
@@ -261,7 +266,9 @@ body {
 .overflow-x-hidden {
     overflow-x: hidden;
 }
-
+.text-wrap-no{
+    text-wrap: nowrap;
+}
 .mt-50 {
     margin-top: -150px;
 }
@@ -387,7 +394,7 @@ footer li a:hover {
     }
 
     .bgImage {
-        height: 700px;
+        height: 900px;
     }
 }
 
@@ -483,8 +490,9 @@ footer li a:hover {
     }
 
     .wh50 {
-        width: 9rem;
-        height: 9rem;
+        width: 7rem;
+        height: 7rem;
+        margin-top: 80px !important;
     }
 
     .w435 {
